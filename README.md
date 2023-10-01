@@ -275,6 +275,8 @@ You can also find me on other platforms:
 * [Twitter](https://twitter.com/AminZayeromali)
 * [My Portfolio](https://aminzayer.ir/)
 * [GitHub](https://www.github.com/aminzayer)
+* [StackOverFlow](https://stackoverflow.com/users/16829292/amin-zayeromali)
+* [Medium](https://medium.com/@amin.zayeromali)
 
 ## License
 
