@@ -1,4 +1,5 @@
 import math
+from functools import reduce
 
 from buscador.flask_app.models.user import EMAIL_REGEX
 # 1. Calculate the square of a number
@@ -11,7 +12,7 @@ cube = lambda x: x**3
 factorial = lambda x: 1 if x < 2 else x * factorial(x-1)
 
 # 4. Calculate the nth Fibonacci number
-fibonacci = lambda n: n if n < 2 else fibonacci(n-1) + fibonacci(n-2)
+fibonacci = lambda n: reduce(lambda x, _: (x[1], x[0] + x[1]), range(n), (0, 1))[0]
 
 # 5. Check if a number is even
 is_even = lambda x: x % 2 == 0
